@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classtest</title>
+</head>
+<body>
+    <button   id="btn" >click</button>
+    <script>
+    let button= document.getElementById("btn")
+    button.addEventListener("click",function(){
+       let amount = prompt("enter amount");
+       let slary=parseInt(amount);
+
+       if(slary>50000){
+         let income= slary*60/100
+          document.write(income)
+       }else{ 
+        let income= slary*60/100
+          document.write(income)
+       }
+    })
+    </script>
+</body>
+</html>
